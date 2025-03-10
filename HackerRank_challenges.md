@@ -45,3 +45,24 @@ if __name__ == '__main__':
     print(mul)
     
 ```
+<br /> 
+
+
+
+[python-division](https://www.hackerrank.com/challenges/python-division/problem)
+
+
+```
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    int_div=a//b            # getting Integer values 
+    float_div=a/b            # Getting Float value
+    
+    print(int_div)
+    print(float_div)
+    
+```
+
+<br /> 
