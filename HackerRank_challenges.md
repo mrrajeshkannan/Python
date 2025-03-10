@@ -28,3 +28,20 @@ else:
 ```
 
 <br /> 
+
+
+[python-arithmetic-operators](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)
+
+
+```
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    add=a+b
+    sub=a-b
+    mul=a*b
+    print(add)
+    print(sub)
+    print(mul)
+    
+```
