@@ -106,3 +106,42 @@ print(is_leap(year))
 ```
 
 <br /> 
+
+
+
+
+
+[python-print](https://www.hackerrank.com/challenges/python-print/problem)
+
+
+```
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end='')         # end will print vertically.
+    
+```
+
+<br /> 
+
+
+
+
+
+[validating-postalcode](https://www.hackerrank.com/challenges/validating-postalcode/problem)
+
+
+```
+regex_integer_in_range = r"^\d{6}$"	# Do not delete 'r'.            # Ensures exactly 6 digits
+regex_alternating_repetitive_digit_pair = r"(\d)(?=\d{1}\1)"	# Do not delete 'r'.        # Ensure not repetitive_digit_pair
+
+
+import re
+P = input()
+
+print (bool(re.match(regex_integer_in_range, P)) 
+and len(re.findall(regex_alternating_repetitive_digit_pair, P)) < 2)
+    
+```
+
+<br /> 
