@@ -82,3 +82,27 @@ if __name__ == '__main__':
 ```
 
 <br /> 
+
+
+
+
+
+
+[write-a-function](https://www.hackerrank.com/challenges/write-a-function/problem)
+
+
+```
+def is_leap(year):                # Find Leap year
+    leap = False
+    
+    # Write your logic here
+    if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):        # Leap year logic
+        leap = True
+    return leap
+
+year = int(input())
+print(is_leap(year))
+    
+```
+
+<br /> 
