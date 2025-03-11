@@ -66,3 +66,19 @@ if __name__ == '__main__':
 ```
 
 <br /> 
+
+
+
+[python-loops](https://www.hackerrank.com/challenges/python-loops/problem)
+
+
+```
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(0,n):        # for Loop   and range basically print 0 to nth value
+        sqr=i*i                    # Square root 
+        print(sqr)
+    
+```
+
+<br /> 
